@@ -113,7 +113,7 @@ input {
 
 }
 
-.get-started {
+.searchbar-button {
     padding: 20px;
     border-radius: 8px;
     background-color: red;
@@ -124,7 +124,7 @@ input {
     border: none;
 }
 
-.get-started:hover {
+.searchbar-button:hover {
     background-color: #453b29;
 }
 
@@ -319,7 +319,7 @@ a {
         font-size: 20px;
     }
   
-    .get-started {
+    .searchbar-button {
         padding: 10px;
     }
 
@@ -392,12 +392,13 @@ a {
     padding-right: 10rem;
    }
 
-   .get-started{
+   .searchbar-button{
      padding: 10px ; 
     margin: 0;
     font-size: medium;
-    width: 150px;
+    width: 130px;
     display: flex;
+    
    }
 
    .question{
