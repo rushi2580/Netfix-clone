@@ -423,4 +423,7 @@ a {
   .qus{
     font-size: inherit;
   }
+  .sign-in{
+    margin-right: 10px;
+  }
 }
