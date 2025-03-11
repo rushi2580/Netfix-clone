@@ -1,0 +1,426 @@
+* {
+    padding: 0;
+    margin: 0px;
+}
+
+body {
+
+    font-family: font-family, Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    
+    background: linear-gradient(black, rgb(12, 12, 12))
+}
+
+.background {
+
+    background-image: url(./images/logo_files/backround-img1.JPG);
+   min-height: 45rem;
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.netflix-logo {
+
+    height: 12vh;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+#language-select {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    background: none;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.sign-in {
+
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+.option {
+
+    border-radius: 10px;
+    color: black;
+    background: none;
+    opacity: 0.3;
+}
+
+.fold2 {
+
+    color: rgb(231, 236, 242);
+}
+
+h1 {
+
+    color: white;
+    text-align: center;
+    font-size: 3.3rem;
+    font-weight: 900;
+    margin-top: 100px;
+}
+
+.starts {
+
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 15px;
+
+}
+    
+.paragraph {
+
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+     text-align: center;
+}
+
+input {
+
+    background: none;
+    color: white;
+    padding: 20px;
+    padding-right: 230px;
+    border-radius: 8px;
+    border: 2px solid snow;
+}
+
+::placeholder {
+
+ color: white;
+
+}
+
+.get-started {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 25px;
+    border: none;
+}
+
+.get-started:hover {
+    background-color: #453b29;
+}
+
+span {
+
+    margin-left: 10px;
+}
+
+.line {
+
+    background-color: brown;
+    width: 100%;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.card-container {
+    margin: 100px 20px;
+}
+
+.cards {
+    margin: auto;
+     width: 90vw; 
+    height: 50%;
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.card {
+    background: linear-gradient(#192145, #1F111E);
+    margin: 10px; 
+     height:100%;
+     margin: auto;
+    text-align: start;
+    border-radius: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.icons {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.join {
+
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.card-heading {
+    margin: 20px;
+    font-size: 23px;
+}
+
+.card-text {
+
+    margin:10px;
+    color: rgb(180, 194, 205);
+}
+
+.questions-container {
+
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.question {
+    padding: 25px;
+    background-color: #302f2f;
+    margin-top: 13px;
+    width: 95%;
+   text-align: start;
+
+}
+.questions {
+
+    width: 90%;
+    list-style: none;
+    
+}
+
+
+
+.plus {
+    float: inline-end;
+}
+
+.qus {
+
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.heading {
+    color: white;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.fold4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.call {
+    color: white;
+    text-decoration: underline;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.sections {
+    display: flex;
+    
+}
+
+a {
+    color: rgb(236, 231, 231);
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 40px ;
+  padding-left: 0;
+    margin-top: 40px;
+}
+
+.fold5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.lang {
+    margin-left: 30px;
+    margin: 50px;
+}
+
+
+@media (min-width:557px) and (max-width:1000px) {
+
+    .netflix-logo {
+        height: 12vh;
+        margin-left: 20px;
+        
+    }
+   
+    #language-select {
+        margin-top: 10px;
+        margin-right: 20px;
+        padding: 8px;
+    }
+
+    .sign-in {
+        padding: 8px;
+        border-radius: 4px;
+        margin-right: 17px;
+    }
+
+    h1 {
+        font-size: 2.7rem;
+        font-weight: 700;
+        margin-top: 100px;
+    }
+
+    .searchbar {
+        margin-top: 60px;
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+
+    input {
+        padding: 5px 30px 5px 20px;
+        border-radius: 8px;
+        font-size: 20px;
+    }
+  
+    .get-started {
+        padding: 10px;
+    }
+
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card {
+
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+
+    .card-container {
+        margin: 50px 20px;
+    }
+
+    .questions-container {
+        display: flex;
+        justify-content: center;
+        margin-right: 30px;
+    }
+
+    .sections {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .fold5 {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:556px) {
+
+    .netflix-logo {
+        height: 6vh;
+        margin: 2px;
+      
+    }
+    .navbar{
+        display:flex;
+        justify-content: space-between;
+        
+    }
+    #language-select{
+        margin: 0;
+    }
+    .background{
+
+        height: 12vh;
+    }
+
+    h1{
+        font-size: 2.6rem;
+    }
+
+   .searchbar{
+     display: flex;
+    flex-direction: column;
+    justify-items: center;   
+    display: grid;
+    
+    gap: 20px;
+   }
+
+   input{
+    padding-right: 10rem;
+   }
+
+   .get-started{
+     padding: 10px ; 
+    margin: 0;
+    font-size: medium;
+    width: 150px;
+    display: flex;
+   }
+
+   .question{
+   width: 85%;
+   
+   }
+   .cards{
+     grid-template-columns: 1fr; 
+   
+   }
+   .card{
+    width: 96%;
+   }
+  .sections{
+   display: grid;
+   grid-template-columns: 1fr;
+   text-align: start;
+  }
+  .section{
+    padding: 20px 0;
+    margin: 0;
+  }
+  .qus{
+    font-size: inherit;
+  }
+}
